@@ -11,4 +11,4 @@
 :HL["/industry-lighting.jpg","image"]
 :HL["/industry-distribution.jpg","image"]
 :HL["/custom-plastic-production.jpg","image"]
-0:{"buildId":"83aha-hEIx6FXDjoA3C-K","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"Wjvi5qK1mUL8ljXcDp5C9","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
