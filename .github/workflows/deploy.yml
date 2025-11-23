@@ -19,7 +19,7 @@
               node-version: '21' # Or your desired Node.js version
 
           - name: Install dependencies
-            run: npm install
+            run: npm --force install
 
           - name: Build Next.js app
             run: npm run build
