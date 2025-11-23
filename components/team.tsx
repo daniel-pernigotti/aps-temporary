@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 const industries = [
   {
     name: "Calzado",
@@ -40,10 +42,12 @@ export function Team() {
           {industries.map((industry, index) => (
             <div key={index} className="group">
               <div className="aspect-square bg-muted mb-6 overflow-hidden rounded-lg">
-                <img
+                <Image
                   src={industry.image || "/placeholder.svg"}
                   alt={industry.name}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  width={553}
+                  height={692}
                 />
               </div>
               <div className="space-y-2">

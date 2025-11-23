@@ -28,9 +28,9 @@ export function Expertise() {
   return (
     <section id="quienes-somos" className="py-20 md:py-32 border-t border-border">
       <div className="container mx-auto px-6 lg:px-12">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20">
-          <div className="lg:col-span-5">
-            <h2 className="text-4xl md:text-5xl font-light tracking-tight mb-6 sticky top-32">Servicios</h2>
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-start">
+          <div className="lg:col-span-5 sticky top-32">
+            <h2 className="text-4xl md:text-5xl font-light tracking-tight mb-6">Servicios</h2>
             <p className="text-muted-foreground text-lg leading-relaxed">
               Más de 25 años acompañando emprendedores, industrias y distribuidores con soluciones plásticas confiables.
             </p>

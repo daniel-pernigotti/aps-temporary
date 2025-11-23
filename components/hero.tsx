@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export function Hero() {
   return (
     <section className="pt-32 pb-20 md:pt-40 md:pb-32">
@@ -19,11 +21,12 @@ export function Hero() {
             </a>
           </div>
           <div className="lg:col-span-5">
-            <div className="aspect-[4/5] bg-muted">
-              <img
+            <div className="aspect-[4/5] bg-muted relative">
+              <Image
                 src="/plastic-rolls-industrial-production.jpg"
                 alt="Rollos de polietileno"
                 className="w-full h-full object-cover"
+                fill
               />
             </div>
           </div>

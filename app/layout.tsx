@@ -35,6 +35,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
+  console.log('Layout children', children)
   return (
     <html lang="es">
       <body className={`${inter.className} antialiased`}>

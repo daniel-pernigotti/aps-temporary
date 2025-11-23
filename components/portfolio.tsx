@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 const products = [
   {
     title: "Láminas de Polietileno",
@@ -52,10 +54,12 @@ export function Portfolio() {
           {products.map((product, index) => (
             <article key={index} className="group">
               <div className="aspect-[3/2] bg-muted mb-6 overflow-hidden">
-                <img
+                <Image
                   src={product.image || "/placeholder.svg"}
                   alt={product.title}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  width={680}
+                  height={453}
                 />
               </div>
               <div className="space-y-2">

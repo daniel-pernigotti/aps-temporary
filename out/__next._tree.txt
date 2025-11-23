@@ -1,14 +1,3 @@
-:HL["/_next/static/chunks/c0681a764213ec0c.css","style"]
-:HL["/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/plastic-rolls-industrial-production.jpg","image"]
-:HL["/polyethylene-sheets-rolls.jpg","image"]
-:HL["/eva-material-rolls.jpg","image"]
-:HL["/translucent-plastic-material.jpg","image"]
-:HL["/colored-plastic-sheets.jpg","image"]
-:HL["/opaque-industrial-plastic.jpg","image"]
-:HL["/industry-footwear.jpg","image"]
-:HL["/industry-automotive.jpg","image"]
-:HL["/industry-lighting.jpg","image"]
-:HL["/industry-distribution.jpg","image"]
-:HL["/custom-plastic-production.jpg","image"]
-0:{"buildId":"QDGUD9Zd0yKOhDZ4kqAO3","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+:HL["/aps-temporary/_next/static/chunks/b8905e13fa9140a1.css","style"]
+:HL["/aps-temporary/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"buildId":"YyF06CqF7hX_FeV8CxIVW","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
