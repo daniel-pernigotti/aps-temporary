@@ -5,37 +5,37 @@ const products = [
     title: "Láminas de Polietileno",
     specs: "Desde 70 a 600 micrones",
     category: "Estándar",
-    image: "/polyethylene-sheets-rolls.jpg",
+    image: "/aps-temporary/polyethylene-sheets-rolls.jpg",
   },
   {
     title: "Rollos EVA",
     specs: "Anchos hasta 1,50-1,53 m",
     category: "Premium",
-    image: "/eva-material-rolls.jpg",
+    image: "/aps-temporary/eva-material-rolls.jpg",
   },
   {
     title: "Productos Translúcidos",
     specs: "Acabado personalizado",
     category: "Especialidad",
-    image: "/translucent-plastic-material.jpg",
+    image: "/aps-temporary/translucent-plastic-material.jpg",
   },
   {
     title: "Láminas de Color",
     specs: "Múltiples tonalidades",
     category: "Personalizado",
-    image: "/colored-plastic-sheets.jpg",
+    image: "/aps-temporary/colored-plastic-sheets.jpg",
   },
   {
     title: "Rollos Opacos",
     specs: "Alta resistencia",
     category: "Industrial",
-    image: "/opaque-industrial-plastic.jpg",
+    image: "/aps-temporary/opaque-industrial-plastic.jpg",
   },
   {
     title: "Soluciones a Medida",
     specs: "Producción personalizada",
     category: "Especial",
-    image: "/custom-plastic-production.jpg",
+    image: "/aps-temporary/custom-plastic-production.jpg",
   },
 ]
 
@@ -55,7 +55,7 @@ export function Portfolio() {
             <article key={index} className="group">
               <div className="aspect-[3/2] bg-muted mb-6 overflow-hidden">
                 <Image
-                  src={product.image || "/placeholder.svg"}
+                  src={product.image || "/aps-temporary/placeholder.svg"}
                   alt={product.title}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   width={680}

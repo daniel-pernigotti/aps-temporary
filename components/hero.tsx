@@ -23,7 +23,7 @@ export function Hero() {
           <div className="lg:col-span-5">
             <div className="aspect-[4/5] bg-muted relative">
               <Image
-                src="/plastic-rolls-industrial-production.jpg"
+                src="/aps-temporary/plastic-rolls-industrial-production.jpg"
                 alt="Rollos de polietileno"
                 className="w-full h-full object-cover"
                 fill

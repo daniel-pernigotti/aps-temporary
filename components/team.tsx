@@ -5,25 +5,25 @@ const industries = [
     name: "Calzado",
     role: "Suelas y Plantillas",
     description: "Componentes de calidad para industria del calzado",
-    image: "/industry-footwear.jpg",
+    image: "/aps-temporary/industry-footwear.jpg",
   },
   {
     name: "Automotriz",
     role: "Neumáticos y Piezas",
     description: "Materiales técnicos para la industria automotriz",
-    image: "/industry-automotive.jpg",
+    image: "/aps-temporary/industry-automotive.jpg",
   },
   {
     name: "Iluminación",
     role: "Pantallas de Lámparas",
     description: "Soluciones translúcidas para iluminación",
-    image: "/industry-lighting.jpg",
+    image: "/aps-temporary/industry-lighting.jpg",
   },
   {
     name: "Distribuidores",
     role: "Soluciones Mayoristas",
     description: "Apoyo para distribuidores de materiales",
-    image: "/industry-distribution.jpg",
+    image: "/aps-temporary/industry-distribution.jpg",
   },
 ]
 
@@ -43,7 +43,7 @@ export function Team() {
             <div key={index} className="group">
               <div className="aspect-square bg-muted mb-6 overflow-hidden rounded-lg">
                 <Image
-                  src={industry.image || "/placeholder.svg"}
+                  src={industry.image || "/aps-temporary/placeholder.svg"}
                   alt={industry.name}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   width={553}
